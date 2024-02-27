@@ -1,0 +1,24 @@
+CITY_1:
+  name: Berlin
+  lat: 52.52000
+  lon: 13.404954
+
+CITY_2:
+  name: Tel Aviv
+  lat: 32.109333
+  lon: 34.855499
+
+CITY_3:
+  name: Barcelona
+  lat: 41.390205
+  lon: 2.154007
+
+CITY_4:
+  name: Paris
+  lat: 48.864716
+  lon: 2.349014
+
+CITY_5:
+  name: Cologne
+  lat: 48.864716
+  lon: 6.953101

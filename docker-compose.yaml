@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    image: mongo:6.0.4
+    restart: always
+    ports:
+      - 27017:27017
+
+  headonservice:
+    build:
+      context: ./headon_service/src/apps/web_service/
+    image: web-service:1.0.0
+    restart: always
+    ports:
+      - 3000:3000
